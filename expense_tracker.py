@@ -128,7 +128,6 @@ def categorize_expenses():
     df = pd.read_csv(file_path)
     keys = df.category.unique()
     # analysis for the current month
-    print(df['date'][0], type(df['date'][0]))
     aggregated = []
     for key in keys:
         total_exp = df.loc[(df['category'] == key) & (df['month'] == datetime.now().month), 'expense'].sum()
@@ -141,7 +140,8 @@ def categorize_expenses():
 # The main function.Simple numeric menu options as given below
 '''
 1. Log
-2. categorize
+2. categorize2
+
 3. track
 4. exit
 '''

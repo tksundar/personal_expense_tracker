@@ -32,3 +32,9 @@ Implemented as a CLI application
 
 ### Tracking- Expenses Pie Chart ###
 <p><img src = "images/proportional.png"/></p>
+
+### Usage ###
+
+Download the repository with _git pull https://github.com/tksundar/personal_expense_tracker.git_ <p/>
+
+run _python expense_tracker.py_
